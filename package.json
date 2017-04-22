@@ -1,0 +1,33 @@
+{
+  "name": "TBD",
+  "version": "1.0.0",
+  "description": "Simple game inspirted by Warlocks WC3 custom map, created using https://github.com/Jerenaux/basic-mmo-phaser as a starting point. ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "eb-deploy": "call ./scripts/deploy.bat",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Argentumvir/silver-arcana.git"
+  },
+  "keywords": [
+    "Phaser",
+    "Multiplayer",
+    "game",
+    "Node.js",
+    "socket.io"
+  ],
+  "author": "Silverman",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  }
+}
